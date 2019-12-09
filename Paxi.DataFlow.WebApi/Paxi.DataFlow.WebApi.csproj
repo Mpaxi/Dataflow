@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Paxi.DataFlow.Database\Paxi.DataFlow.Database.csproj" />
+    <ProjectReference Include="..\Paxi.DataFlow.Domain\Paxi.DataFlow.Domain.csproj" />
+    <ProjectReference Include="..\Paxi.DataFlow.File\Paxi.DataFlow.File.csproj" />
+  </ItemGroup>
+
+</Project>
